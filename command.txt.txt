@@ -1,0 +1,27 @@
+# Step 1: Go to your project folder
+cd path/to/admin-dashboard
+
+# Step 2: Initialize Git
+git init
+
+# Step 3: Configure Git (only once)
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+# Step 4: Add files
+git add .
+
+# Step 5: Commit files
+git commit -m "Initial commit - Admin dashboard with registration"
+
+# Step 6: Create new repo on GitHub
+# Go to https://github.com > Click "New repository"
+# Name: admin-dashboard (keep it public)
+# DO NOT initialize with README
+
+# Step 7: Connect local to GitHub repo
+git remote add origin https://github.com/yourusername/admin-dashboard.git
+
+# Step 8: Push code to GitHub
+git branch -M main
+git push -u origin main
